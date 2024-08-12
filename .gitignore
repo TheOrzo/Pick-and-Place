@@ -1,0 +1,225 @@
+*.bundle.*
+lib/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# OS X stuff
+*.DS_Store
+
+# End of https://www.gitignore.io/api/python
+
+_temp_extension
+junit.xml
+[uU]ntitled*
+notebook/static/*
+!notebook/static/favicons
+notebook/labextension
+notebook/schemas
+docs/source/changelog.md
+docs/source/contributing.md
+
+# playwright
+ui-tests/test-results
+ui-tests/playwright-report
+
+# VSCode
+.vscode
+
+# RTC
+.jupyter_ystore.db
+
+# yarn >=2.x local files
+.yarn/*
+.pnp.*
+ui-tests/.yarn/*
+ui-tests/.pnp.*
+
+# venv
+.ppvenv/*
+.ppvenv/bin/*
+.ppvenv/include/*
+.ppvenv/lib/*
+.ppvenv/lib64/*
+.ppvenv/share/*
+.ppenv/lib64
+.ppenv/pyvenv.cfg
+.ppenv/bin/activate
+.ppenv/bin/activate.csh
+.ppenv/bin/activate.fish
+.ppenv/bin/Activate.ps1
+.ppenv/bin/ale-import-roms
+.ppenv/bin/AutoROM
+.ppenv/bin/convert-caffe2-to-onnx
+.ppenv/bin/convert-onnx-to-caffe2
+.ppenv/bin/debugpy
+.ppenv/bin/f2py
+.ppenv/bin/fonttools
+.ppenv/bin/ipython
+.ppenv/bin/ipython3
+.ppenv/bin/isympy
+.ppenv/bin/jupyter
+.ppenv/bin/jupyter-kernel
+.ppenv/bin/jupyter-kernelspec
+.ppenv/bin/jupyter-migrate
+.ppenv/bin/jupyter-run
+.ppenv/bin/jupyter-troubleshoot
+.ppenv/bin/markdown_py
+.ppenv/bin/markdown-it
+.ppenv/bin/normalizer
+.ppenv/bin/numba
+.ppenv/bin/numpy-config
+.ppenv/bin/pip
+.ppenv/bin/pip3
+.ppenv/bin/pip3.11
+.ppenv/bin/proton
+.ppenv/bin/proton-viewer
+.ppenv/bin/pyftmerge
+.ppenv/bin/pyftsubset
+.ppenv/bin/pygmentize
+.ppenv/bin/python
+.ppenv/bin/python3
+.ppenv/bin/python3.11
+.ppenv/bin/tensorboard
+.ppenv/bin/torchrun
+.ppenv/bin/tqdm
+.ppenv/bin/ttx
+.ppenv/include/site/python3.11/pygame/_blit_info.h
+.ppenv/include/site/python3.11/pygame/_camera.h
+.ppenv/include/site/python3.11/pygame/_pygame.h
+.ppenv/include/site/python3.11/pygame/_surface.h
+.ppenv/include/site/python3.11/pygame/camera.h
+.ppenv/include/site/python3.11/pygame/font.h
+.ppenv/include/site/python3.11/pygame/freetype.h
+.ppenv/include/site/python3.11/pygame/mask.h
+.ppenv/include/site/python3.11/pygame/mixer.h
+.ppenv/include/site/python3.11/pygame/palette.h
+.ppenv/include/site/python3.11/pygame/pgarrinter.h
+.ppenv/include/site/python3.11/pygame/pgbufferproxy.h
+.ppenv/include/site/python3.11/pygame/pgcompat.h
+.ppenv/include/site/python3.11/pygame/pgopengl.h
+.ppenv/include/site/python3.11/pygame/pgplatform.h
+.ppenv/include/site/python3.11/pygame/pygame.h
+.ppenv/include/site/python3.11/pygame/scrap.h
+.ppenv/include/site/python3.11/pygame/simd_blitters.h
+.ppenv/include/site/python3.11/pygame/surface.h
+.ppenv/include/site/python3.11/pygame/include/_pygame.h
+.ppenv/include/site/python3.11/pygame/include/bitmask.h
+.ppenv/include/site/python3.11/pygame/include/pgcompat.h
+.ppenv/include/site/python3.11/pygame/include/pgimport.h
+.ppenv/include/site/python3.11/pygame/include/pgplatform.h
+.ppenv/include/site/python3.11/pygame/include/pygame_bufferproxy.h
+.ppenv/include/site/python3.11/pygame/include/pygame_font.h
+.ppenv/include/site/python3.11/pygame/include/pygame_freetype.h
+.ppenv/include/site/python3.11/pygame/include/pygame_mask.h
+.ppenv/include/site/python3.11/pygame/include/pygame_mixer.h
+.ppenv/include/site/python3.11/pygame/include/pygame.h
+.ppenv/include/site/python3.11/pygame/include/sse2neon.h
+.ppenv/share/jupyter/kernels/python3/kernel.json
+.ppenv/share/jupyter/kernels/python3/logo-32x32.png
+.ppenv/share/jupyter/kernels/python3/logo-64x64.png
+.ppenv/share/jupyter/kernels/python3/logo-svg.svg
+.ppenv/share/man/man1/ipython.1
+.ppenv/share/man/man1/isympy.1
+.ppenv/share/man/man1/ttx.1
