@@ -3,3 +3,5 @@ robosuite==1.4.1
 stable-baselines3[extra]==2.3.2
 tensorboard==2.17.0
 h5py==3.11.0
+optuna==3.6.1
+torch==2.4.0
